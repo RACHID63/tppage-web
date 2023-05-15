@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: yellowgreen;
+}
+
+nav {
+  width: 100vw;
+  height: 60px;
+  background: black;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+nav .boxMenu {
+  display: flex;
+  align-items: center;
+}
+nav .boxMenu .menu {
+  position: absolute;
+  left: 10px;
+  width: 40vw;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .boxMenu .reseaux {
+  width: 50vw;
+  position: absolute;
+  right: 10px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+}
+nav .boxMenu .reseaux ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 409px;
+}/*# sourceMappingURL=index.css.map */
